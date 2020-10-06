@@ -57,7 +57,7 @@ describe('getUserPages api route v1', function() {
     assert.equal(pages[0].background, 'default');
     assert.isObject(pages[0].media);
     assert.equal(pages[0].media._id, 'default');
-    assert.equal(pages[0].media.source, 'https://ed-markey-supporter-photos.s3.amazonaws.com/em-header-original.jpg');
+    assert.equal(pages[0].media.source, 'https://raw.githubusercontent.com/priya-chatwani/friendbank/master/public/assets/marquitarally.jpg');
   });
 
   it('should paginate user pages', async function() {

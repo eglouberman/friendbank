@@ -34,63 +34,33 @@ const { ENGLISH, SPANISH } = require('../src/shared/lang');
     {
       _id: 'default',
       type: 'image',
-      source: 'https://ed-markey-supporter-photos.s3.amazonaws.com/em-header-original.jpg',
-      alt: 'Ed at the Podium',
+      source: 'https://raw.githubusercontent.com/priya-chatwani/friendbank/master/public/assets/marquitarally.jpg',
+      alt: 'Marquita at a rally',
     },
     {
-      _id: 'hoops',
+      _id: 'speech',
       type: 'image',
-      source: 'https://ed-markey-supporter-photos.s3.amazonaws.com/hoops.jpg',
-      alt: 'Ed shooting hoops',
+      source: 'https://raw.githubusercontent.com/priya-chatwani/friendbank/master/public/assets/marquitaspeech.jpeg',
+      alt: 'Marquita giving a speech',
     },
     {
-      _id: 'air-flight-89',
+      _id: 'sky-diving',
       type: 'image',
-      source: 'https://ed-markey-supporter-photos.s3.amazonaws.com/air-flight-89.png',
-      alt: 'Ed wearing his pair of Air Flight ‘89s',
+      source: 'https://raw.githubusercontent.com/priya-chatwani/friendbank/master/public/assets/MarquitaSkyDiving.JPG',
+      alt: 'Marquita going sky diving while on the campaign trail',
     },
     {
-      _id: 'ed-clapping',
+      _id: 'supporters',
       type: 'image',
-      source: 'https://ed-markey-supporter-photos.s3.amazonaws.com/Ed+Clap.jpg',
-      alt: 'Ed clapping at an event',
+      source: 'https://raw.githubusercontent.com/priya-chatwani/friendbank/master/public/assets/marquitawithsupporters.PNG',
+      alt: 'Marquita smiling with supporters',
     },
     {
-      _id: 'ed-climate-march',
+      _id: 'yard-sign',
       type: 'image',
-      source: 'https://ed-markey-supporter-photos.s3.amazonaws.com/Taylor+St.+Germain+-+P2+Markey+(52+of+70).jpg',
-      alt: 'Ed at a climate march with young students',
-    },
-    {
-      _id: 'ed-serving',
-      type: 'image',
-      source: 'https://ed-markey-supporter-photos.s3.amazonaws.com/Ed+Serving.JPG',
-      alt: 'Ed serving food',
-    },
-    {
-      _id: 'ed-seiu',
-      type: 'image',
-      source: 'https://ed-markey-supporter-photos.s3.amazonaws.com/Taylor+St.+Germain+-+32BJ8.jpg',
-      alt: 'Ed standing with SEIU supporters',
-    },
-    {
-      _id: 'ed-laughing',
-      type: 'image',
-      source: 'https://ed-markey-supporter-photos.s3.amazonaws.com/IMG_3417.JPG',
-      alt: 'Ed laughing',
-    },
-    {
-      _id: 'ed-ew-supporters',
-      type: 'image',
-      source: 'https://ed-markey-supporter-photos.s3.amazonaws.com/IMG_7718.JPG',
-      alt: 'Ed standing with supporters'
-    },
-    {
-      _id: 'ed-unite-here',
-      type: 'image',
-      source: 'https://ed-markey-supporter-photos.s3.amazonaws.com/IMG_3743.JPG',
-      alt: 'Ed marching with a labor union',
-    },
+      source: 'https://raw.githubusercontent.com/priya-chatwani/friendbank/master/public/assets/marquitasign.JPG',
+      alt: 'Marquita yard sign being used',
+    }
   ];
 
   console.log('adding default media');
@@ -102,10 +72,10 @@ const { ENGLISH, SPANISH } = require('../src/shared/lang');
     disableNavDonate: true,
     media: defaultMediaObjects.map((object) => object._id),
     defaultMedia: {
-      _id: 'ed-climate-march',
+      _id: 'supporters',
       type: 'image',
-      source: 'https://ed-markey-supporter-photos.s3.amazonaws.com/Taylor+St.+Germain+-+P2+Markey+(52+of+70).jpg',
-      alt: 'Ed at a climate march with young students',
+      source: 'https://raw.githubusercontent.com/priya-chatwani/friendbank/master/public/assets/marquitawithsupporters.PNG',
+      alt: 'Marquita smiling with supporters',
     },
   });
 
@@ -245,7 +215,7 @@ const { ENGLISH, SPANISH } = require('../src/shared/lang');
       [SPANISH]: 'https://www.marquitabradshaw.com/',
     },
     'nav.donateForm': {
-      [ENGLISH]: 'https://secure.actblue.com/donate/ejm2020',
+      [ENGLISH]: 'https://secure.actblue.com/donate/marquitaussenate',
     },
     'phonebankPage.title': {
       [ENGLISH]: 'Add a Contact',

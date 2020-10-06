@@ -13,7 +13,7 @@ import {
   DASHBOARD_ROUTE,
   ADMIN_ROUTE,
 } from '../routes';
-import { ENGLISH, SPANISH, SPANISH_PREFIX } from '../../shared/lang';
+//import { ENGLISH, SPANISH, SPANISH_PREFIX } from '../../shared/lang';
 import { STAFF_ROLE } from '../../shared/roles';
 
 const NavStack = styled.div`
@@ -43,8 +43,7 @@ const Logo = styled.a`
   margin-left: 8px;
 
   img {
-    width: 50px;
-    margin-bottom: 10px;
+    height: 70px;
   }
 
   @media ${({ theme }) => theme.media.tablet} {
@@ -170,9 +169,9 @@ export default function Nav(props) {
 
   const role = useRole();
 
-  const languageLink = isSpanish
-    ? location.pathname.replace(SPANISH_PREFIX, '')
-    : `${SPANISH_PREFIX}${location.pathname}`;
+  // const languageLink = isSpanish
+  //   ? location.pathname.replace(SPANISH_PREFIX, '')
+  //   : `${SPANISH_PREFIX}${location.pathname}`;
 
   const [rightLink, setRightLink] = React.useState(
     [makeLocaleLink(LOGIN_ROUTE), getCopy('nav.login')],
@@ -199,12 +198,12 @@ export default function Nav(props) {
       </RedirectRow>
       <NavContainer>
         <Logo href={makeLocaleLink(HOMEPAGE_ROUTE)}>
-          <img src="https://ed-markey-supporter-photos.s3.amazonaws.com/logo.png" alt={getCopy('nav.logoAlt')} />
+          <img src="https://raw.githubusercontent.com/priya-chatwani/friendbank/master/public/assets/logo.png" alt="Marquita Bradshaw for US Senate logo which includes a light blue outline of the state of Tennessee and the words `Leadership for Healthy and Safe Communities'" />
         </Logo>
         <NavItemsContainer>
-          <LeftLink href={languageLink}>
+          {/* <LeftLink href={languageLink}>
             {getCopy('nav.language')}
-          </LeftLink>
+          </LeftLink> */}
           <RightNavItemsRow>
             {role === STAFF_ROLE && (
               <AdminLink href={ADMIN_ROUTE}>
