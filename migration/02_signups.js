@@ -92,7 +92,7 @@ async function read(path) {
 
   for (const bsdSignup of bsdSignups) {
     const inputs = {
-      code: bsdSignup[`"Field 6288 volunteer-for-ed-markey: Relational Page Code"`],
+      code: bsdSignup[`"Field 6288 volunteer-for-marquita-bradshaw: Relational Page Code"`],
       firstName: bsdSignup.firstname,
       lastName: bsdSignup.lastname,
       phone: bsdSignup.phone,
@@ -100,12 +100,12 @@ async function read(path) {
       email: bsdSignup.email,
     };
 
-    const supportLevelRaw = bsdSignup[`"Field 6295 volunteer-for-ed-markey: Will you vote for Ed Markey"`];
+    const supportLevelRaw = bsdSignup[`"Field 6295 volunteer-for-marquita-bradshaw: Will you vote for Marquita Bradshaw"`];
     if (supportLevelRaw) {
       inputs.supportLevel = BSD_VAN_MAP.support[supportLevelRaw];
     }
 
-    const volunteerLevelRaw = bsdSignup['"Field 6291 volunteer-for-ed-markey: Will you volunteer with Team"'];
+    const volunteerLevelRaw = bsdSignup['"Field 6291 volunteer-for-marquita-bradshaw: Will you volunteer with Team"'];
     if (volunteerLevelRaw) {
       inputs.volunteerLevel = BSD_VAN_MAP.volunteer[volunteerLevelRaw];
     }

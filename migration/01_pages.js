@@ -8,7 +8,7 @@ const {
 } = process.env;
 
 /**
- * 1. Configure the edmarkey campaign
+ * 1. Configure the marquitabradshaw campaign
  * 2. Migrate pages to new schema
  * 3. Create user accounts for all existing page authors
  */
@@ -32,15 +32,15 @@ const {
     const users = db.collection('users');
     const campaigns = db.collection('campaigns');
 
-    const markeyCampaignData = {
+    const marquitaCampaignData = {
       domains: [
-        'ed-markey-support-prod.herokuapp.com',
-        'support.edmarkey.com',
+        'marquita-bradshaw-support-prod.herokuapp.com',
+        'support.marquitabradshaw.com',
       ],
-      name: 'Team Markey',
+      name: 'Team Bradshaw',
     };
 
-    const campaignInsertResult = await campaigns.insertOne(markeyCampaignData);
+    const campaignInsertResult = await campaigns.insertOne(marquitaCampaignData);
     const campaign = campaignInsertResult.ops[0];
 
     const pages = await pagesCollection.find().toArray();
@@ -96,15 +96,15 @@ const {
 //     "_id": {
 //         "$oid": "5eab38d8c54d590017933971"
 //     },
-//     "code": "nicole-b-899",
-//     "createdByFirstName": "Nicole",
-//     "createdByLastName": "Bardasz",
-//     "createdByEmail": "nicole@edmarkey.com",
-//     "createdByPhone": "+15084238722",
-//     "createdByZip": "01886",
+//     "code": "priya-b-899",
+//     "createdByFirstName": "Priya",
+//     "createdByLastName": "Chatwani",
+//     "createdByEmail": "priya@Marquitabradshaw.com",
+//     "createdByPhone": "+3107508500",
+//     "createdByZip": "90266",
 //     "createdAt": 1588279510360,
-//     "title": "Nicole is sticking with Ed because...",
-//     "subtitle": "Ed has been always been righteous fighter for working people and environmental justice. We need him in office now more than ever, bringing these fights\u2013our fights\u2013to the floor of the US Senate.",
+//     "title": "Priya is sticking with Marquita because...",
+//     "subtitle": "Marquita has been always been righteous fighter for working people and environmental justice. We need him in office now more than ever, bringing these fights\u2013our fights\u2013to the floor of the US Senate.",
 //     "totalSignups": 3,
 //     "background": "air-flight-89"
 // }

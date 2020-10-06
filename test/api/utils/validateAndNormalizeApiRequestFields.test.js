@@ -9,7 +9,7 @@ describe('validateAndNormalizeApiRequestFields utility', function() {
     assert.deepEqual(
       ['firstName', 'validations.required'],
       validateAndNormalizeApiRequestFields({
-        lastName: 'Markey',
+        lastName: 'Bradshaw',
         firstName: '',
       }),
     );
@@ -45,16 +45,16 @@ describe('validateAndNormalizeApiRequestFields utility', function() {
     );
 
     assert.deepEqual(
-      { firstName: 'Ed' },
+      { firstName: 'Marquita' },
       validateAndNormalizeApiRequestFields({
-        firstName: 'Ed',
+        firstName: 'Marquita',
       }),
     );
 
     assert.deepEqual(
-      { firstName: '&lt;script&gt;console.log("Ed")&lt;/script&gt;' },
+      { firstName: '&lt;script&gt;console.log("Marquita")&lt;/script&gt;' },
       validateAndNormalizeApiRequestFields({
-        firstName: '<script>console.log("Ed")</script>',
+        firstName: '<script>console.log("Marquita")</script>',
       }),
     );
   });
@@ -89,9 +89,9 @@ describe('validateAndNormalizeApiRequestFields utility', function() {
     );
 
     assert.deepEqual(
-      { lastName: 'Markey' },
+      { lastName: 'Bradshaw' },
       validateAndNormalizeApiRequestFields({
-        lastName: 'Markey',
+        lastName: 'Bradshaw',
       }),
     );
   });
@@ -242,9 +242,9 @@ describe('validateAndNormalizeApiRequestFields utility', function() {
     );
 
     assert.deepEqual(
-      { email: 'ed@edmarkey.com' },
+      { email: 'marquita@marquitabradshaw.com' },
       validateAndNormalizeApiRequestFields({
-        email: 'ed@edmarkey.com'
+        email: 'marquita@marquitabradshaw.com'
       }),
     );
   });

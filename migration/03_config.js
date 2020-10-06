@@ -111,8 +111,8 @@ const { ENGLISH, SPANISH } = require('../src/shared/lang');
 
   const copy = JSON.stringify({
     'idQuestions.support.label': {
-      [ENGLISH]: 'Will you vote to re-elect Ed Markey to the United States Senate on September 1st?',
-      [SPANISH]: '¿Votará para reelegir a Ed Markey al Senado de los Estados Unidos el 1 de septiembre?',
+      [ENGLISH]: 'Will you vote to elect Marquita Bradshaw to the United States Senate on November 3rd?',
+      [SPANISH]: '¿Votará para elegir a Marquita Bradshaw al Senado de los Estados Unidos el 3 de noviembre?',
     },
     'idQuestions.support.options': {
       [ENGLISH]: [
@@ -133,8 +133,8 @@ const { ENGLISH, SPANISH } = require('../src/shared/lang');
       ],
     },
     'idQuestions.volunteer.label': {
-      [ENGLISH]: 'Will you volunteer with Team Markey?',
-      [SPANISH]: '¿Quiéres ser voluntario con el Equipo Markey?',
+      [ENGLISH]: 'Will you volunteer with Team Bradshaw?',
+      [SPANISH]: '¿Quiéres ser voluntario con el Equipo Bradshaw?',
     },
     'idQuestions.volunteer.options': {
       [ENGLISH]: [
@@ -151,12 +151,12 @@ const { ENGLISH, SPANISH } = require('../src/shared/lang');
       ],
     },
     'homepage.formTitle': {
-      [ENGLISH]: 'Create your own Ed Markey supporter page',
-      [SPANISH]: 'Crea tu propia página de apoyo para Ed Markey',
+      [ENGLISH]: 'Create your own Marquita Bradshaw supporter page',
+      [SPANISH]: 'Crea tu propia página de apoyo para Marquita Bradshaw',
     },
     'homepage.formSubtitle': {
-      [ENGLISH]: 'Our grassroots campaign is powered by people like you who are connecting with family, friends, and neighbors about this important election. Complete the sections below to create your own personal supporter page and reach out to your network about why you’re a member of Team Markey!',
-      [SPANISH]: 'Nuestra campaña está impulsada por gente como tú que se está conectando con familia, amigos y vecinos sobre esta elección importante. Completa las siguientes secciones para crear tu propia página de apoyo personal y hablarle a tus redes de por qué eres miembro del Equipo Markey!',
+      [ENGLISH]: 'Our grassroots campaign is powered by people like you who are connecting with family, friends, and neighbors about this important election. Complete the sections below to create your own personal supporter page and reach out to your network about why you’re a member of Team Bradshaw!',
+      [SPANISH]: 'Nuestra campaña está impulsada por gente como tú que se está conectando con familia, amigos y vecinos sobre esta elección importante. Completa las siguientes secciones para crear tu propia página de apoyo personal y hablarle a tus redes de por qué eres miembro del Equipo Bradshaw!',
     },
     'homepage.customizeTitle': {
       [ENGLISH]: 'Customize your page',
@@ -175,12 +175,12 @@ const { ENGLISH, SPANISH } = require('../src/shared/lang');
       [SPANISH]: 'crear página',
     },
     'homepage.defaultTitle': {
-      [ENGLISH]: `{{FIRST_NAME}} is #StickingWithEd because...`,
-      [SPANISH]: '{{FIRST_NAME}} está #ConEd porque...'
+      [ENGLISH]: `{{FIRST_NAME}} is voting for #Bradshaw2020 because...`,
+      [SPANISH]: '{{FIRST_NAME}} está votando por #Bradshaw2020 porque...'
     },
     'homepage.defaultSubtitle': {
-      [ENGLISH]: 'Ed comes from a working family, and he’s fighting from the heart for the working class. Ed is running a people-powered campaign, and it’s up to us to help make sure he can keep fighting in the Senate for our shared progressive values. Let me know that you are with me, and help me reach my goal!',
-      [SPANISH]: 'Ed viene de una familia trabajadora y está luchando con todo su corazón por la clase trabajadora. Ed está llevando a cabo una campaña impulsada por la gente y depende de nosotros asegurarnos de que pueda seguir luchando en el Senado por nuestros valores progresistas. ¡Háganme saber que están conmigo y ayúdenme a alcanzar mi meta!',
+      [ENGLISH]: 'Marquita is a lifelong Tennessean, a working-class woman, and a single mom. She is fighting to support and protect the hardworking people of this state. Let me know that you are with me, and help me reach my goal!',
+      [SPANISH]: 'Marquita ha vivido en Tennessee desde su nacimiento y es una mujer de clase trabajadora y madre soltera. Ella está luchando para apoyar y proteger a la gente trabajadora de este estado. ¡Háganme saber que están conmigo y ayúdenme a alcanzar mi meta!',
     },
     'signupPage.postSignupSubtitle': {
       [ENGLISH]: 'Next, keep up the momentum by sharing this link with your friends, family, and network, and help {{FIRST_NAME}} reach their goal! Or, make your own page and get everyone you know to join the fight.',
@@ -191,41 +191,41 @@ const { ENGLISH, SPANISH } = require('../src/shared/lang');
       [SPANISH]: 'Haz tu propia página',
     },
     'signupPage.postSignupCreateSubtitle': {
-      [ENGLISH]: 'Create your own supporter page and become a grassroots organizer for Ed. We’ll show you how!',
-      [SPANISH]: 'Crea tu propia página de apoyo y conviértete en un organizador en tu comunidad para Ed. ¡Te mostraremos cómo!',
+      [ENGLISH]: 'Create your own supporter page and become a grassroots organizer for Marquita. We’ll show you how!',
+      [SPANISH]: 'Crea tu propia página de apoyo y conviértete en un organizador en tu comunidad para Marquita. ¡Te mostraremos cómo!',
     },
     'signupPage.postSignupCreateButtonLabel': {
       [ENGLISH]: 'Get started',
       [SPANISH]: 'Comenzar',
     },
     'signupPage.modalTitle': {
-      [ENGLISH]: `Here's how you can join ed's fight`,
-      [SPANISH]: 'Como puedes unirte a la lucha de Ed',
+      [ENGLISH]: `Here's how you can join Marquita Bradshaw's fight`,
+      [SPANISH]: 'Como puedes unirte a la lucha de Marquita Bradshaw',
     },
     'signupPage.modalCopy': {
       [ENGLISH]: [
         `### Send your link far and wide`,
-        `Share this page with your network to help us grow Team Markey! Your friends, family, neighbors, colleagues, roommates, classmates, Facebook friends, Twitter peeps, your Zoom hangout friends -- the sky's the limit, and we need to reach everyone.`,
+        `Share this page with your network to help us grow Team Bradshaw! Your friends, family, neighbors, colleagues, roommates, classmates, Facebook friends, Twitter peeps, your Zoom hangout friends -- the sky's the limit, and we need to reach everyone.`,
         `### Relational organizing tips`,
         ` - Call 5 friends and ask them to fill out your link`,
         ` - Email your link to 50 people`,
         ` - Share it on your Facebook and other social media`,
         ` - Go through your contact list in your phone and text the link to at least 10 people!`,
         ' ',
-        `### Volunteer with Team Markey`,
-        `[Join the movement here](http://edmarkey.com/volunteer).`,
+        `### Volunteer with Team Bradshaw`,
+        `[Join the movement here](https://www.marquitabradshaw.com/get-involved).`,
       ],
       [SPANISH]: [
         '### Comparte tu enlace',
-        `¡Comparte esta página con tus redes para ayudarnos a crecer el Equipo Markey! Tus amigos, familia, vecinos, colegas, compañeros de habitación, compañeros de clase, amigos de Facebook, seguidores en Twitter, tus amigos de Zoom...el cielo es el límite y tenemos que llegar a todos.`,
+        `¡Comparte esta página con tus redes para ayudarnos a crecer el Equipo Bradshaw! Tus amigos, familia, vecinos, colegas, compañeros de habitación, compañeros de clase, amigos de Facebook, seguidores en Twitter, tus amigos de Zoom...el cielo es el límite y tenemos que llegar a todos.`,
         `### Consejos para organizar relacionalmente`,
         ` - Llama a 5 amigos y pídeles que llenen tu enlace`,
         ` - Envía tu enlace a 50 personas`,
         ` - Compártelo en tu Facebook y otras redes sociales`,
         ` - ¡Revisa la lista de contactos de tu teléfono y envía el enlace al menos a 10 personas!`,
         ` `,
-        `### Ser voluntario con el Equipo Markey`,
-        `[Únete al movimiento aquí](http://edmarkey.com/volunteer).`,
+        `### Ser voluntario con el Equipo Bradshaw`,
+        `[Únete al movimiento aquí](https://www.marquitabradshaw.com/get-involved).`,
       ],
     },
     'signupPage.modalCloseLabel': {
@@ -233,16 +233,16 @@ const { ENGLISH, SPANISH } = require('../src/shared/lang');
       [SPANISH]: 'Perfecto, lo tengo.',
     },
     'nav.logoAlt': {
-      [ENGLISH]: 'Ed Markey For Senate Logo',
-      [SPANISH]: 'Logo de Ed Markey para el Senado',
+      [ENGLISH]: 'Marquita Bradshaw For Senate Logo',
+      [SPANISH]: 'Logo de Marquita Bradshaw para el Senado',
     },
     'nav.return': {
-      [ENGLISH]: '← return to edmarkey.com',
-      [SPANISH]: '← volver a edmarkey.com',
+      [ENGLISH]: '← return to marquitabradshaw.com',
+      [SPANISH]: '← volver a marquitabradshaw.com',
     },
     'nav.returnLink': {
-      [ENGLISH]: 'https://www.edmarkey.com/',
-      [SPANISH]: 'https://www.edmarkey.com/es/',
+      [ENGLISH]: 'https://www.marquitabradshaw.com/',
+      [SPANISH]: 'https://www.marquitabradshaw.com/',
     },
     'nav.donateForm': {
       [ENGLISH]: 'https://secure.actblue.com/donate/ejm2020',
@@ -252,8 +252,8 @@ const { ENGLISH, SPANISH } = require('../src/shared/lang');
       [SPANISH]: 'Añadir un contacto',
     },
     'phonebankPage.subtitle': {
-      [ENGLISH]: 'Enter your friends, family, and people in your network. Grow your list of the people you’re personally bringing to this grassroots movement, let Ed know if they support him, and help make sure this campaign reaches its goals.',
-      [SPANISH]: 'Añade a tus amigos, familiares y personas de tu red. Crece tu lista de personas que personalmente trajiste a este movimiento impulsado por el pueblo, déjale saber a Ed si lo apoyan y ayuda a la campaña a alcanzar sus metas.',
+      [ENGLISH]: 'Enter your friends, family, and people in your network. Grow your list of the people you’re personally bringing to this grassroots movement, let Marquita know if they support her, and help make sure this campaign reaches its goals.',
+      [SPANISH]: 'Añade a tus amigos, familiares y personas de tu red. Crece tu lista de personas que personalmente trajiste a este movimiento impulsado por el pueblo, déjale saber a Marquita si la apoyan y ayuda a la campaña a alcanzar sus metas.',
     },
     'privacyPolicy.label': {
       [ENGLISH]: 'Privacy Policy',
@@ -264,16 +264,16 @@ const { ENGLISH, SPANISH } = require('../src/shared/lang');
       [SPANISH]: 'https://www.edmarkey.com/es/privacy-policy/',
     },
     'politicalDiclaimer': {
-      [ENGLISH]: 'PAID FOR BY THE MARKEY COMMITTEE',
-      [SPANISH]: 'PAGADO POR THE MARKEY COMMITTEE',
+      [ENGLISH]: 'PAID FOR BY MARQUITA BRADSHAW FOR US SENATE',
+      [SPANISH]: 'PAGADO POR MARQUITA BRADSHAW FOR US SENATE',
     },
     'smsDisclaimer': {
-      [ENGLISH]: 'By providing your cell phone number you consent to receive periodic campaign updates from the Markey Committee. Text HELP for help, STOP to end. Message & data rates may apply. https://www.edmarkey.com/privacy-policy/',
-      [SPANISH]: 'Al proporcionar su número de teléfono celular usted consiente en recibir actualizaciones periódicas de la campaña de The Markey Committee. Envíe un mensaje de texto que diga HELP para pedir ayuda o STOP para descontinuar los mensajes. Pueden aplicar tarifas de mensajes y data. https://www.edmarkey.com/privacy-policy/',
+      [ENGLISH]: 'By providing your cell phone number you consent to receive periodic campaign updates from the Bradshaw Campaign.',
+      [SPANISH]: 'Al proporcionar su número de teléfono celular usted consiente en recibir actualizaciones periódicas de la campaña de Marquita Bradshaw.',
     },
     'genericError': {
-      [ENGLISH]: 'Looks like we had an error, try again? If this continues to happen, please contact us https://www.edmarkey.com/contact-us/',
-      [SPANISH]: 'Parece que tuvimos un error, ¿intentar de nuevo? Si esto continúa sucediendo, por favor contáctenos https://www.edmarkey.com/contact-us/',
+      [ENGLISH]: 'Looks like we had an error, try again? If this continues to happen, please [contact us](mailto:info@marquitabradshaw.com)',
+      [SPANISH]: 'Parece que tuvimos un error, ¿intentar de nuevo? Si esto continúa sucediendo, por favor [contáctenos](mailto:info@marquitabradshaw.com)',
     },
   });
 
@@ -281,7 +281,7 @@ const { ENGLISH, SPANISH } = require('../src/shared/lang');
 
   const campaigns = db.collection('campaigns');
   await campaigns.updateOne(
-    { domains: 'support.edmarkey.com' },
+    { domains: 'support.marquitabradshaw.com' },
     {
       '$set': {
         copy,

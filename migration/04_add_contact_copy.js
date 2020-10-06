@@ -16,10 +16,10 @@ const { ENGLISH, SPANISH } = require('../src/shared/lang');
 
   const campaigns = db.collection('campaigns');
 
-  const markeyCampaign = await campaigns.findOne({ domains: 'support.edmarkey.com' });
+  const bradshawCampaign = await campaigns.findOne({ domains: 'support.marquitabradshaw.com' });
 
   const copy = JSON.stringify({
-    ...JSON.parse(markeyCampaign.copy),
+    ...JSON.parse(bradshawCampaign.copy),
     'phonebankPage.successfullySubmitted': {
       [ENGLISH]: 'Successfully submitted contact!',
       [SPANISH]: '¡Contacto creado con éxito!',
@@ -27,7 +27,7 @@ const { ENGLISH, SPANISH } = require('../src/shared/lang');
   });
 
   await campaigns.updateOne(
-    { domains: 'support.edmarkey.com' },
+    { domains: 'support.marquitabradshaw.com' },
     {
       '$set': {
         copy,

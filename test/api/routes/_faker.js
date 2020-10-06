@@ -42,9 +42,9 @@ async function fakeSignup({
 
 async function fakeUser({
   campaign = '',
-  email = 'ed@edmarkey.com',
+  email = 'marquita@marquitabradshaw.com',
   password = 'password',
-  firstName = 'Ed',
+  firstName = 'Marquita',
   zip = '00000',
   emailFrequency = WEEKLY_EMAIL,
   role = USER_ROLE,
@@ -112,7 +112,7 @@ async function fakeMedia({
 
 async function fakeCampaign({
   domains = ['api:5000'],
-  name = 'Team Markey',
+  name = 'Team Bradshaw',
   config = {
     media: [
       'default',

@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const defaultApplicationContext = {
-  title: 'Ed Markey Organizing Hub',
+  title: 'Marquita Bradshaw Organizing Hub',
   cover: '/assets/em-header-original.jpg',
   status: 200,
   data: {},
