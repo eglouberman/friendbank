@@ -23,7 +23,7 @@ describe('getCampaign api route v1', function() {
     const standard = await standardTestSetup();
 
     const staffUser = await fakeUser({
-      email: 'admin@edmarkey.com',
+      email: 'admin@marquitabradshaw.com',
       role: STAFF_ROLE,
       campaign: standard.campaign._id.toString(),
     });

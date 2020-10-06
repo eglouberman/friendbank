@@ -18,7 +18,7 @@ describe('login api route v1', function() {
     const response = await fetch(`${API_URL}/api/v1/login`, {
       method: 'post',
       body: JSON.stringify({
-        email: 'ed@edmarkey.com',
+        email: 'marquita@marquitabradshaw.com',
         password: 'password',
       }),
       headers: {
@@ -47,7 +47,7 @@ describe('login api route v1', function() {
     const response = await fetch(`${API_URL}/api/v1/login`, {
       method: 'post',
       body: JSON.stringify({
-        email: 'ED@EDMARKEY.COM',
+        email: 'MARQUITA@MARQUITABRADSHAW.COM',
         password: 'password',
       }),
       headers: {
@@ -84,7 +84,7 @@ describe('login api route v1', function() {
     const response = await fetch(`${API_URL}/api/v1/login`, {
       method: 'post',
       body: JSON.stringify({
-        email: 'ed@edmarkey.com',
+        email: 'marquita@marquitabradshaw.com',
         password: 'incorrect-password',
       }),
       headers: {
@@ -124,7 +124,7 @@ describe('login api route v1', function() {
     const response = await fetch(`${API_URL}/api/v1/login`, {
       method: 'post',
       body: JSON.stringify({
-        email: 'ed@edmarkey.com',
+        email: 'marquita@marquitabradshaw.com',
       }),
       headers: {
         'Content-Type': 'application/json',

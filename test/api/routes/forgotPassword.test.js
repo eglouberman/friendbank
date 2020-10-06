@@ -20,7 +20,7 @@ describe('forgotPassword api route v1', function() {
     const response = await fetch(`${API_URL}/api/v1/forgot-password`, {
       method: 'post',
       body: JSON.stringify({
-        email: 'ed@edmarkey.com',
+        email: 'marquita@marquitabradshaw.com',
       }),
       headers: {
         'Content-Type': 'application/json',
@@ -30,7 +30,7 @@ describe('forgotPassword api route v1', function() {
     assert.equal(response.status, 200);
 
     const message = await _readServiceOutput('mail');
-    assert.equal(message.to, 'ed@edmarkey.com');
+    assert.equal(message.to, 'marquita@marquitabradshaw.com');
     assert.equal(message.dynamic_template_data.campaignName, standard.campaign.name);
 
     const client = await MongoClient.connect(MONGODB_URL, { useUnifiedTopology: true });
@@ -62,7 +62,7 @@ describe('forgotPassword api route v1', function() {
     const response = await fetch(`${API_URL}/api/v1/forgot-password`, {
       method: 'post',
       body: JSON.stringify({
-        email: 'ed@edmarkey.com',
+        email: 'marquita@marquitabradshaw.com',
       }),
       headers: {
         'Content-Type': 'application/json',

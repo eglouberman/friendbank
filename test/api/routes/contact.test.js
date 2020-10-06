@@ -97,7 +97,7 @@ describe('contact api route v1', function() {
     assert.include(payload.url, process.env.BSD_CONTACT_FORM_SLUG);
     assert.include(payload.body, 'email=supporter%40gmail.com');
     assert.include(payload.body, 'firstname=First');
-    assert.include(payload.body, `${process.env.BSD_CONTACT_FRIEND_ID}=${encodeURIComponent('ed@edmarkey.com')}`);
+    assert.include(payload.body, `${process.env.BSD_CONTACT_FRIEND_ID}=${encodeURIComponent('marquita@marquitabradshaw.com')}`);
     assert.include(payload.body, `${process.env.BSD_CONTACT_NOTE_ID}=Test`);
   });
 
@@ -147,8 +147,8 @@ describe('contact api route v1', function() {
     const signups = client.db().collection('signups');
 
     const recruiters = await Promise.all([
-      await fakeUser({ email: 'first@edmarkey.com', campaign: standard.campaign._id.toString() }),
-      await fakeUser({ email: 'second@edmarkey.com', campaign: standard.campaign._id.toString() }),
+      await fakeUser({ email: 'first@marquitabradshaw.com', campaign: standard.campaign._id.toString() }),
+      await fakeUser({ email: 'second@marquitabradshaw.com', campaign: standard.campaign._id.toString() }),
     ]);
 
     const recruiterTokens = await Promise.all([

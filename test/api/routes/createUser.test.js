@@ -21,7 +21,7 @@ describe('createUser api route v1', function() {
     const response = await fetch(`${API_URL}/api/v1/user`, {
       method: 'post',
       body: JSON.stringify({
-        email: 'test@edmarkey.com',
+        email: 'test@marquitabradshaw.com',
         password: 'password',
         firstName: 'Test',
         zip: '00000',
@@ -43,7 +43,7 @@ describe('createUser api route v1', function() {
     const users = client.db().collection('users');
 
     const record = await users.findOne({
-      email: 'test@edmarkey.com',
+      email: 'test@marquitabradshaw.com',
     });
 
     assert.equal(record.firstName, 'Test');
@@ -59,7 +59,7 @@ describe('createUser api route v1', function() {
     const response = await fetch(`${API_URL}/api/v1/user`, {
       method: 'post',
       body: JSON.stringify({
-        email: 'TEST@EDMARKEY.COM',
+        email: 'TEST@marquitabradshaw.COM',
         password: 'password',
         firstName: 'Test',
         zip: '00000',
@@ -76,7 +76,7 @@ describe('createUser api route v1', function() {
     const users = client.db().collection('users');
 
     const record = await users.findOne({
-      email: 'test@edmarkey.com',
+      email: 'test@marquitabradshaw.com',
     });
 
     assert.isOk(record._id);
@@ -88,7 +88,7 @@ describe('createUser api route v1', function() {
     const response = await fetch(`${API_URL}/api/v1/user`, {
       method: 'post',
       body: JSON.stringify({
-        email: 'ed@edmarkey.com',
+        email: 'marquita@marquitabradshaw.com',
         password: 'password',
         firstName: 'Test',
         zip: '00000',
@@ -111,7 +111,7 @@ describe('createUser api route v1', function() {
     const response = await fetch(`${API_URL}/api/v1/user`, {
       method: 'post',
       body: JSON.stringify({
-        email: 'test@edmarkey.com',
+        email: 'test@marquitabradshaw.com',
         password: 'password',
         zip: '00000',
         emailFrequency: 'WEEKLY_EMAIL',
@@ -157,7 +157,7 @@ describe('createUser api route v1', function() {
     const response = await fetch(`${API_URL}/api/v1/user`, {
       method: 'post',
       body: JSON.stringify({
-        email: 'test@edmarkey.com',
+        email: 'test@marquitabradshaw.com',
         firstName: 'Test',
         zip: '00000',
         emailFrequency: 'WEEKLY_EMAIL',
@@ -180,7 +180,7 @@ describe('createUser api route v1', function() {
     const response = await fetch(`${API_URL}/api/v1/user`, {
       method: 'post',
       body: JSON.stringify({
-        email: 'test@edmarkey.com',
+        email: 'test@marquitabradshaw.com',
         password: 'password',
         firstName: 'Test',
         emailFrequency: 'WEEKLY_EMAIL',
@@ -203,7 +203,7 @@ describe('createUser api route v1', function() {
     const response = await fetch(`${API_URL}/api/v1/user`, {
       method: 'post',
       body: JSON.stringify({
-        email: 'test@edmarkey.com',
+        email: 'test@marquitabradshaw.com',
         password: 'password',
         firstName: 'Test',
         zip: '00000',

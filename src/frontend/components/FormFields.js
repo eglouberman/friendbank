@@ -537,7 +537,7 @@ export function CodeInputField(props) {
       {help && <HelpText as="p">{help}</HelpText>}
       <CodeInputFieldWrapper>
         <DomainLabel>
-          support.edmarkey.com/
+          support.marquitabradshaw.com/
         </DomainLabel>
         <BaseSingleLineTextInput
           {...rest}

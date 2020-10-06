@@ -173,8 +173,8 @@ describe('signup api route v1', function() {
     const signups = client.db().collection('signups');
 
     const recruiters = await Promise.all([
-      await fakeUser({ email: 'first@edmarkey.com', campaign: standard.campaign._id.toString() }),
-      await fakeUser({ email: 'second@edmarkey.com', campaign: standard.campaign._id.toString() }),
+      await fakeUser({ email: 'first@marquitabradshaw.com', campaign: standard.campaign._id.toString() }),
+      await fakeUser({ email: 'second@marquitabradshaw.com', campaign: standard.campaign._id.toString() }),
     ]);
 
     await pages.insertMany([
@@ -240,7 +240,7 @@ describe('signup api route v1', function() {
 
     const author = await fakeUser({
       campaign: standard.campaign._id.toString(),
-      email: 'emma@edmarkey.com',
+      email: 'emma@marquitabradshaw.com',
       password: 'password',
       firstName: 'Emma',
       zip: '00000',
@@ -254,7 +254,7 @@ describe('signup api route v1', function() {
 
     await campaigns.updateOne(
       { _id: standard.campaign._id },
-      { '$set': { domains: ['api:5000', 'support.edmarkey.com'] } },
+      { '$set': { domains: ['api:5000', 'support.marquitabradshaw.com'] } },
     );
 
     await pages.insertOne({
@@ -285,7 +285,7 @@ describe('signup api route v1', function() {
     assert.equal(message.dynamic_template_data.signupFirstName, 'First');
     assert.equal(message.dynamic_template_data.signupLastName, 'Last');
     assert.equal(message.dynamic_template_data.campaignName, standard.campaign.name);
-    assert.equal(message.dynamic_template_data.domain, 'support.edmarkey.com');
+    assert.equal(message.dynamic_template_data.domain, 'support.marquitabradshaw.com');
   });
 
   it('should create a signup without all fields', async function() {

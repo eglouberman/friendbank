@@ -36,7 +36,7 @@ describe('editUser api route v1', function() {
     const { user } = await response.json();
 
     assert.isUndefined(user.id);
-    assert.equal(user.email, 'ed@edmarkey.com');
+    assert.equal(user.email, 'marquita@marquitabradshaw.com');
     assert.isUndefined(user.password);
     assert.isUndefined(user.lastAuthenticationUpdate);
     assert.equal(user.firstName, 'Test');
@@ -47,10 +47,10 @@ describe('editUser api route v1', function() {
     const users = client.db().collection('users');
 
     const record = await users.findOne({
-      email: 'ed@edmarkey.com',
+      email: 'marquita@marquitabradshaw.com',
     });
 
-    assert.equal(record.email, 'ed@edmarkey.com');
+    assert.equal(record.email, 'marquita@marquitabradshaw.com');
     assert.equal(record.firstName, 'Test');
     assert.equal(record.zip, '11111');
     assert.equal(record.emailFrequency, 'UNSUBSCRIBED');
@@ -65,7 +65,7 @@ describe('editUser api route v1', function() {
     const response = await fetch(`${API_URL}/api/v1/user`, {
       method: 'put',
       body: JSON.stringify({
-        email: 'TEST@EDMARKEY.COM',
+        email: 'TEST@MARQUITABRADSHAW.COM',
       }),
       headers: {
         'Content-Type': 'application/json',
@@ -79,7 +79,7 @@ describe('editUser api route v1', function() {
     const users = client.db().collection('users');
 
     const record = await users.findOne({
-      email: 'test@edmarkey.com',
+      email: 'test@marquitabradshaw.com',
     });
 
     assert.isOk(record._id);
@@ -110,7 +110,7 @@ describe('editUser api route v1', function() {
     const users = client.db().collection('users');
 
     const record = await users.findOne({
-      email: 'ed@edmarkey.com',
+      email: 'marquita@marquitabradshaw.com',
     });
 
     assert.notEqual(record.password, standard.user.password);
@@ -149,7 +149,7 @@ describe('editUser api route v1', function() {
     const response = await fetch(`${API_URL}/api/v1/user`, {
       method: 'put',
       body: JSON.stringify({
-        email: 'test@edmarkey.com',
+        email: 'test@marquitabradshaw.com',
       }),
       headers: {
         'Content-Type': 'application/json',
@@ -166,14 +166,14 @@ describe('editUser api route v1', function() {
     const standard = await standardTestSetup();
 
     await fakeUser({
-      email: 'test@edmarkey.com',
+      email: 'test@marquitabradshaw.com',
       campaign: standard.campaign._id.toString(),
     });
 
     const response = await fetch(`${API_URL}/api/v1/user`, {
       method: 'put',
       body: JSON.stringify({
-        email: 'test@edmarkey.com',
+        email: 'test@marquitabradshaw.com',
       }),
       headers: {
         'Content-Type': 'application/json',
