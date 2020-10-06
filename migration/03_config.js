@@ -163,8 +163,8 @@ const { ENGLISH, SPANISH } = require('../src/shared/lang');
       [SPANISH]: 'Personaliza tu página',
     },
     'homepage.customizeSubtitle': {
-      [ENGLISH]: `Fill out the sections below to personalize the title, description, and design of your supporter page to tell your network why you’re #StickingWithEd. Share your story of why you’re a member of this movement -- feel free to get creative!`,
-      [SPANISH]: `Llena las siguientes secciones para personalizar el título, la descripción y el diseño de tu página de apoyo para decirle a tus redes por qué estás #ConEd. Comparte tu historia de por qué eres miembro de este movimiento. ¡Siéntete libre de ser creativo!`,
+      [ENGLISH]: `Fill out the sections below to personalize the title, description, and design of your supporter page to tell your network why you’re voting #Bradshaw2020. Share your story of why you’re a member of this movement -- feel free to get creative!`,
+      [SPANISH]: `Llena las siguientes secciones para personalizar el título, la descripción y el diseño de tu página de apoyo para decirle a tus redes por qué estás votando por #Bradshaw2020. Comparte tu historia de por qué eres miembro de este movimiento. ¡Siéntete libre de ser creativo!`,
     },
     'homepage.formButtonLabel': {
       [ENGLISH]: 'next',

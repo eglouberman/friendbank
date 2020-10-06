@@ -135,7 +135,7 @@ const { TRANSACTIONAL_EMAIL } = require('../../shared/emailFrequency');
       ],
     },
     'idQuestions.vote.label': {
-      [ENGLISH]: 'Are you planning to vote by mail for Ed in the Massachusetts primary?',
+      [ENGLISH]: 'Are you planning to vote by mail for Marquita in the general election?',
     },
     'idQuestions.vote.subtitle': {
       [ENGLISH]: 'Voting by mail is the safest way to make your voice heard in this election, and new laws have expanded access to vote by mail in Massachusetts for every registered voter. An application to vote by mail will be mailed to each registered voter in MA (or you can download one and mail or email it in). Just complete that application, send it back, and you’ll receive a ballot to vote for Ed by mail. Skip the polls, stay safe, and get your vote for Ed in early -- vote by mail!',
@@ -149,10 +149,10 @@ const { TRANSACTIONAL_EMAIL } = require('../../shared/emailFrequency');
       ],
     },
     'voteStatus.label': {
-      [ENGLISH]: 'Make a plan to vote for Ed in the Massachusetts primary!',
+      [ENGLISH]: 'Make a plan to vote for Marquita in the upcoming election!',
     },
     'voteStatus.subtitle': {
-      [ENGLISH]: 'Our future and our planet are on the line. Make your voice heard by making a plan to vote for Ed Markey in the Massachusetts Senate Primary Election. If you have not already applied to vote by mail, please make a plan to vote early or on Election Day.',
+      [ENGLISH]: 'Our future and our planet are on the line. Make your voice heard by making a plan to vote for Marquita Bradshaw in the Tennessee US Senate Election. If you have not already applied to vote by mail, please make a plan to vote early or on Election Day.',
     },
     'voteStatus.options': {
       [ENGLISH]: [
@@ -186,8 +186,8 @@ const { TRANSACTIONAL_EMAIL } = require('../../shared/emailFrequency');
       [SPANISH]: 'Personaliza tu página',
     },
     'homepage.customizeSubtitle': {
-      [ENGLISH]: `Fill out the sections below to personalize the title, description, and design of your supporter page to tell your network why you’re #StickingWithEd. Share your story of why you’re a member of this movement -- feel free to get creative!`,
-      [SPANISH]: `Llena las siguientes secciones para personalizar el título, la descripción y el diseño de tu página de apoyo para decirle a tus redes por qué estás #ConEd. Comparte tu historia de por qué eres miembro de este movimiento. ¡Siéntete libre de ser creativo!`,
+      [ENGLISH]: `Fill out the sections below to personalize the title, description, and design of your supporter page to tell your network why you’re voting #Marquita2020. Share your story of why you’re a member of this movement -- feel free to get creative!`,
+      [SPANISH]: `Llena las siguientes secciones para personalizar el título, la descripción y el diseño de tu página de apoyo para decirle a tus redes por qué estás votando por #Marquita2020. Comparte tu historia de por qué eres miembro de este movimiento. ¡Siéntete libre de ser creativo!`,
     },
     'homepage.formButtonLabel': {
       [ENGLISH]: 'next',
@@ -198,12 +198,12 @@ const { TRANSACTIONAL_EMAIL } = require('../../shared/emailFrequency');
       [SPANISH]: 'crear página',
     },
     'homepage.defaultTitle': {
-      [ENGLISH]: `{{FIRST_NAME}} is #StickingWithEd because...`,
-      [SPANISH]: '{{FIRST_NAME}} está #ConEd porque...'
+      [ENGLISH]: `{{FIRST_NAME}} is voting #Bradshaw2020 because...`,
+      [SPANISH]: '{{FIRST_NAME}} está votando por #Bradshaw2020 porque...'
     },
     'homepage.defaultSubtitle': {
-      [ENGLISH]: 'Ed comes from a working family, and he’s fighting from the heart for the working class. Ed is running a people-powered campaign, and it’s up to us to help make sure he can keep fighting in the Senate for our shared progressive values. Let me know that you are with me, and help me reach my goal!',
-      [SPANISH]: 'Ed viene de una familia trabajadora y está luchando con todo su corazón por la clase trabajadora. Ed está llevando a cabo una campaña impulsada por la gente y depende de nosotros asegurarnos de que pueda seguir luchando en el Senado por nuestros valores progresistas. ¡Háganme saber que están conmigo y ayúdenme a alcanzar mi meta!',
+      [ENGLISH]: 'Marquita is a lifelong Tennessean, a working-class woman, and a single mom. She is fighting to support and protect the hardworking people of this state. Let me know that you are with me, and help me reach my goal!',
+      [SPANISH]: 'Marquita ha vivido en Tennessee desde su nacimiento y es una mujer de clase trabajadora y madre soltera. Ella está luchando para apoyar y proteger a la gente trabajadora de este estado. ¡Háganme saber que están conmigo y ayúdenme a alcanzar mi meta!',
     },
     'signupPage.postSignupSubtitle': {
       [ENGLISH]: 'Next, keep up the momentum by sharing this link with your friends, family, and network, and help {{FIRST_NAME}} reach their goal! Or, make your own page and get everyone you know to join the fight.',
@@ -222,8 +222,8 @@ const { TRANSACTIONAL_EMAIL } = require('../../shared/emailFrequency');
       [SPANISH]: 'Comenzar',
     },
     'signupPage.modalTitle': {
-      [ENGLISH]: `Here's how you can join ed's fight`,
-      [SPANISH]: 'Como puedes unirte a la lucha de Ed',
+      [ENGLISH]: `Here's how you can join Marquita's fight`,
+      [SPANISH]: 'Como puedes unirte a la lucha de Marquita',
     },
     'signupPage.modalCopy': {
       [ENGLISH]: [

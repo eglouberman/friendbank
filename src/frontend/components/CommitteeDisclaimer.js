@@ -48,9 +48,9 @@ export default function CommitteeDisclaimer() {
       <Disclaimer>
         {getCopy('politicalDiclaimer')}
       </Disclaimer>
-      <PrivacyPolicyLink href={getCopy('privacyPolicy.link')}>
+      {/* <PrivacyPolicyLink href={getCopy('privacyPolicy.link')}>
         {getCopy('privacyPolicy.label')}
-      </PrivacyPolicyLink>
+      </PrivacyPolicyLink> */}
     </Container>
   );
 }

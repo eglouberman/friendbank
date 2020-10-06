@@ -35,8 +35,8 @@ export const copy = {
     [SPANISH]: 'Título',
   },
   'formLabels.subtitle': {
-    [ENGLISH]: 'Share why you\'re #StickingWithEd',
-    [SPANISH]: 'Comparte por qué estás #ConEd',
+    [ENGLISH]: 'Share why you\'re voting #Bradshaw2020',
+    [SPANISH]: 'Comparte por qué estás votando por #Bradshaw2020',
   },
   'formLabels.background': {
     [ENGLISH]: 'Background',
